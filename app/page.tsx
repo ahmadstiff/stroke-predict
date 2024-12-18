@@ -93,7 +93,7 @@ export default function StrokeRiskPredictionPage() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6 }}
-            className="text-5xl font-extrabold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent"
+            className="text-5xl font-extrabold bg-gradient-to-r from-lime-500 to-amber-500 bg-clip-text text-transparent"
           >
             Stroke Risk Intelligence
           </motion.h1>
@@ -169,7 +169,7 @@ export default function StrokeRiskPredictionPage() {
           </div>
           
           <div className="space-y-6">
-            <h2 className="text-3xl font-bold">How We Predict Stroke Risks</h2>
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-amber-400 to-teal-500 bg-clip-text text-transparent">How We Predict Stroke Risks</h2>
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
                 <ShieldCheck className="w-8 h-8 text-green-500" />
@@ -185,7 +185,7 @@ export default function StrokeRiskPredictionPage() {
               </div>
             </div>
             <Link href="/prediction">
-              <Button variant="outline">Learn More</Button>
+              <Button variant="outline" className='ms-3 mt-3'>Learn More</Button>
             </Link>
           </div>
         </section>
