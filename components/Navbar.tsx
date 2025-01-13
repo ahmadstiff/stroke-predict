@@ -35,7 +35,7 @@ function MobileNavbar() {
 
   return (
     <div
-      className='absolute z-40 h-fit w-full py-5 md:py-0'
+      className='absolute z-40 h-fit w-full py-4 md:py-0'
       style={{
         backgroundColor: 'rgba(128, 128, 128, 0.2)',
       }}
